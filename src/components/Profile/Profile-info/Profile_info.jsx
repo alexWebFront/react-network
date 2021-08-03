@@ -1,15 +1,9 @@
-const Profile = () =>{
+import "./Profile_info.css";
+const Profile_info = () =>{
    return(
-      <section className="main-content">
-        <div className="main-content-image">
-          <img
-            src="https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg"
-            alt="image"
-          />
-        </div>
         <section className="profile">
           <div className="profile-image">
-            <img
+            <img className="profile-avatar"
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVkOdUDfgnkJ6pg25hxZboJY9V62vC8FB92g&usqp=CAU"
               alt=""
             />
@@ -24,16 +18,7 @@ const Profile = () =>{
             </p>
           </div>
         </section>
-        <section className="message">
-          <h3 className="message-heading">Мои посты</h3>
-          <form action="#" method="GET">
-            
-            <textarea name="textarea" placeholder="Мои новости"></textarea>
-            <button type="submit">Отправить</button>
-          </form>
-        </section>
-      </section>
    );
 }
 
-export default Profile;
+export default Profile_info;

@@ -1,0 +1,18 @@
+.post{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   padding-top: 20px;
+}
+
+.post-avatar{
+   width: 50px;
+   height: 50px;
+   border-radius: 30px;
+}
+
+.post-message{
+   line-height: 23px;
+   letter-spacing: 1px;
+   font-size: 16px;
+}

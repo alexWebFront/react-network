@@ -1,0 +1,23 @@
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.message-textarea {
+  resize: none;
+  width: 800px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 10px 10px 0px 10px;
+  background: rgb(237, 238, 240);
+}
+
+.message-button {
+   background: #387732;
+  border-radius: 0px 4px 4px 0px;
+  color: #ffffff;
+  height: 50px;
+  width: 200px;
+}

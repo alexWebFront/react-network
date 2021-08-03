@@ -1,0 +1,21 @@
+.sidebar {
+  grid-area: sidebar;
+  background: rgb(237, 238, 240);
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-left: 20px;
+  color: rgb(129, 156, 183);
+}
+
+.sidebar-menu {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar-menu__item:hover {
+  border-bottom: 1px solid rgb(7, 185, 216);
+  margin-bottom: -1px;
+  display: inline-block;
+}

@@ -1,8 +1,9 @@
+import "./Sidebar.css";
 const Sidebar = () => {
    return (
       <nav className="sidebar">
          <ul className="sidebar-menu">
-            <a href="#s">
+            <a className="sidebar-menu-link" href="#s">
                <li className="sidebar-menu__item">Профиль</li>
             </a>
             <a href="#s">
