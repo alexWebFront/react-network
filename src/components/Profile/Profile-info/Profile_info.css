@@ -12,7 +12,7 @@
 }
 
 .profile-avatar:hover{
-  animation: image 1s linear;
+  animation: image 0.7s linear;
 }
 
 @keyframes image{

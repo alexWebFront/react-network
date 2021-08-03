@@ -11,6 +11,6 @@ const Profile = () => {
          <MyPosts/>
       </section>
    );
-}
+};
 
 export default Profile;

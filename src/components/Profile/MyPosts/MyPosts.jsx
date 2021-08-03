@@ -8,10 +8,8 @@ const MyPosts = () => {
         <textarea className="message-textarea" placeholder="Мои новости"></textarea>
         <button className="message-button" type="submit">Отправить</button>
       </form>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
+      <Post message = "Первый пост"/>
+      <Post message = "Второй пост"/>
     </section>
   );
 }
